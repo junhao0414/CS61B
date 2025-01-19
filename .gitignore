@@ -6,6 +6,9 @@
 !**/pom.xml
 !.fatweleminus
 !.gitignore
+.cursor/
+.eclipse/
+skeleton-sp21/
 .local/
 .vscode/
 CLionProjects/
