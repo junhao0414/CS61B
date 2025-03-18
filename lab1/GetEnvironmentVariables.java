@@ -35,7 +35,7 @@ public class GetEnvironmentVariables {
                 repo = mac.replace("{variable}", "REPO_DIR").replace("{value}", REPO_DIR);
                 snaps = mac.replace("{variable}", "SNAPS_DIR").replace("{value}", SNAPS_DIR);
                 source = macSource;
-            }
+            }v
         } else if (yourOS.contains("nux")) {
             repo = linux.replace("{variable}", "REPO_DIR").replace("{value}", REPO_DIR);
             snaps = linux.replace("{variable}", "SNAPS_DIR").replace("{value}", SNAPS_DIR);
